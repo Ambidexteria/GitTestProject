@@ -323,6 +323,7 @@ GameObject:
   - component: {fileID: 1910549902}
   - component: {fileID: 1910549906}
   - component: {fileID: 1910549907}
+  - component: {fileID: 1910549908}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -448,6 +449,21 @@ MonoBehaviour:
   _scalingSpeed: 1.2
   _maxScale: 3
   _enableScaling: 0
+--- !u!114 &1910549908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910549901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc19b59f72c124f48895cf408c35b28f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cubeTransform: {fileID: 1910549905}
+  _angularSpeed: 90
+  _enableRotation: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

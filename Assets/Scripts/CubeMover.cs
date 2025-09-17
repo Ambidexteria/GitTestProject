@@ -39,6 +39,6 @@ public class CubeMover : MonoBehaviour
 
     private bool TargetReached()
     {
-        return _finish.sqrMagnitude - _cubeTranform.position.sqrMagnitude < 0.1f;
+        return _finish.magnitude - _cubeTranform.position.magnitude < 0.1f;
     }
 }
